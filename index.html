@@ -1,0 +1,681 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+  <meta http-equiv="x-ua-compatible" content="ie=edge">
+  <title>Material Design Bootstrap</title>
+  <!-- Font Awesome -->
+  <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.2/css/all.css">
+  <!-- Bootstrap core CSS -->
+  <link href="css/bootstrap.min.css" rel="stylesheet">
+  <!-- Material Design Bootstrap -->
+  <link href="css/mdb.min.css" rel="stylesheet">
+  <!-- Your custom styles (optional) -->
+  <link href="css/style.min.css" rel="stylesheet">
+  <style type="text/css">
+    html,
+    body,
+    header,
+    .carousel {
+      height: 60vh;
+    }
+
+    @media (max-width: 740px) {
+
+      html,
+      body,
+      header,
+      .carousel {
+        height: 100vh;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+
+      html,
+      body,
+      header,
+      .carousel {
+        height: 100vh;
+      }
+    }
+
+    @media (min-width: 800px) and (max-width: 850px) {
+      .navbar:not(.top-nav-collapse) {
+        background: #929FBA !important;
+      }
+    }
+
+  </style>
+</head>
+
+<body>
+
+  <header>
+
+    <!-- Navbar -->
+    <nav class="navbar fixed-top navbar-expand-lg navbar-dark scrolling-navbar">
+      <div class="container">
+
+        <!-- Brand -->
+        <a class="navbar-brand" href="index.html">
+          <img src="./img/logo.png" width="50%"/>
+        </a>
+
+        <!-- Collapse -->
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarSupportedContent"
+          aria-controls="navbarSupportedContent" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+
+        <!-- Links -->
+        <div class="collapse navbar-collapse" id="navbarSupportedContent">
+
+          <!-- Left -->
+          <ul class="navbar-nav mr-auto">
+            <li class="nav-item active">
+              <a class="nav-link" href="index.html">Anasayfa
+                <span class="sr-only">(current)</span>
+              </a>
+            </li>
+            <li class="nav-item">
+              <a class="nav-link" href="hakkimizda.html">Hakkımızda</a>
+            </li>
+
+            <li class="nav-item btn-group">
+              <button class="btn btn-secondary btn-sm dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+                Ürünler
+              </button>
+              <div class="dropdown-menu">
+                <a class="dropdown-item" href="kedi.html">Kedi</a>
+                <a class="dropdown-item" href="kopek.html">Köpek</a>
+                <a class="dropdown-item" href="kus.html">Kuş</a>
+              </div>
+            </li>
+
+            <li class="nav-item">
+              <a class="nav-link" href="iletisim.html">İletişim</a>
+            </li>
+          </ul>
+        </div>
+
+      </div>
+    </nav>
+    <!-- Navbar -->
+
+    <!--Carousel Wrapper-->
+    <div id="carousel-example-1z" class="carousel slide carousel-fade" data-ride="carousel">
+
+      <!--Indicators-->
+      <ol class="carousel-indicators">
+        <li data-target="#carousel-example-1z" data-slide-to="0" class="active"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="1"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="2"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="3"></li>
+        <li data-target="#carousel-example-1z" data-slide-to="4"></li>
+      </ol>
+      <!--/.Indicators-->
+
+      <!--Slides-->
+      <div class="carousel-inner" role="listbox">
+
+        <!--First slide-->
+        <div class="carousel-item active">
+          <div class="view" style="background-image: url('./img/slayt/reflexplus_banner.png'); background-repeat: no-repeat; background-size: cover;">
+
+            <!-- Mask & flexbox options-->
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            </div>
+            <!-- Mask & flexbox options-->
+
+          </div>
+        </div>
+        <!--/First slide-->
+
+        <!--Second slide-->
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('./img/slayt/Site_KittenStarter_Banner_1920x850px.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            <!-- Mask & flexbox options-->
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+              <!-- Content -->
+
+            </div>
+            <!-- Mask & flexbox options-->
+
+          </div>
+        </div>
+        <!--/Second slide-->
+
+        <!--Third slide-->
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('./img/slayt/Site_SpectrumCare_MilkPowder_Banner_1920x850px.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            <!-- Mask & flexbox options-->
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            </div>
+            <!-- Mask & flexbox options-->
+
+          </div>
+        </div>
+        <!--/Third slide-->
+
+        <!--Fourth slide-->
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('./img/slayt/Site_SpectrumCare_Paste_Banner_1920x850px_(1).jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            <!-- Mask & flexbox options-->
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            </div>
+            <!-- Mask & flexbox options-->
+
+          </div>
+        </div>
+        <!--/Fourth slide-->
+
+        <!--Fifth slide-->
+        <div class="carousel-item">
+          <div class="view" style="background-image: url('./img/slayt/Site_SpectrumCare_Tablet_Banner_1920x850px.jpg'); background-repeat: no-repeat; background-size: cover;">
+
+            <!-- Mask & flexbox options-->
+            <div class="mask rgba-black-light d-flex justify-content-center align-items-center">
+
+            </div>
+            <!-- Mask & flexbox options-->
+
+          </div>
+        </div>
+        <!--/Fifth slide-->
+
+      </div>
+      <!--/.Slides-->
+
+      <!--Controls-->
+      <a class="carousel-control-prev" href="#carousel-example-1z" role="button" data-slide="prev">
+        <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+        <span class="sr-only">Previous</span>
+      </a>
+      <a class="carousel-control-next" href="#carousel-example-1z" role="button" data-slide="next">
+        <span class="carousel-control-next-icon" aria-hidden="true"></span>
+        <span class="sr-only">Next</span>
+      </a>
+      <!--/.Controls-->
+
+    </div>
+    <!--/.Carousel Wrapper-->
+
+  </header>
+
+  <!--Main layout-->
+  <main>
+    <div class="container">
+      <section>
+
+        <div class="row features-small mt-5 wow fadeIn">
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <div class="row">
+            <div class="card" style="width:100%">
+            <!--Grid row-->
+                <a href="spectrum-large-breet-pupy-dog-12-kg.html">
+                <img class="card-img-top" src="img/kopek/kurumamalar/spectrum/s8.jpg" alt="Spectrum Puppy 32" style="width:100%">
+              <!-- </div> -->
+                  <div class="col-10 mb-2 pl-3">
+                  <div class="card-body">
+                    <p class="card-text">SPECTRUM PUPPY 32 BÜYÜK IRK YAVRU KÖPEK MAMASI 12 KG</p>
+                  </div>
+                </a>
+            </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <div class="row">
+            <div class="card" style="width:100%">
+            <!--Grid row-->
+                <a href="proline-dog-puppy-3-kg.html">
+                <img class="card-img-top" src="img/kopek/kurumamalar/proline/p2.jpg" alt="Proline Puppy" style="width:233px">
+              <!-- </div> -->
+                  <div class="col-10 mb-2 pl-3">
+                  <div class="card-body">
+                    <p class="card-text">PROLINE YAVRU KÖPEK MAMASI 3 KG</p>
+                  </div>
+                </a>
+            </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <div class="row">
+            <div class="card" style="width:100%">
+            <!--Grid row-->
+                <a href="proline-cat-chicken-15-kg.html">
+                <img class="card-img-top" src="img/kedi/kurumamalar/proline/p8.jpg" alt="Proline Cat" style="width:100%">
+              <!-- </div> -->
+                  <div class="col-10 mb-2 pl-3">
+                  <div class="card-body">
+                    <p class="card-text">PROLINE TAVUKLU YETİŞKİN KEDİ MAMASI 1,5 KG</p>
+                  </div>
+                </a>
+            </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <div class="row">
+            <div class="card" style="width:100%">
+            <!--Grid row-->
+                <a href="proline-cat-citten-400-gr.html">
+                <img class="card-img-top" src="img/kedi/kurumamalar/proline/p9.jpg" alt="PROLINE YAVRU KEDİ" style="width:301px">
+              <!-- </div> -->
+                  <div class="col-10 mb-2 pl-3">
+                  <div class="card-body">
+                    <p class="card-text">PROLINE YAVRU KEDİ MAMASI 400 G</p>
+                  </div>
+                </a>
+            </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          </div>
+          <!--/Grid column-->
+
+        </div>
+        <!--/First row-->
+
+        <!--Second row-->
+        <div class="row features-small mt-4 wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <div class="row">
+            <div class="card" style="width:100%">
+            <!--Grid row-->
+                <a href="proline-cat-fish-color-500-gr.html">
+                <img class="card-img-top" src="img/kedi/kurumamalar/proline/p6.jpg" alt="PROLINE BALIKLI YETİŞKİN KEDİ" style="width:100%">
+              <!-- </div> -->
+                  <div class="col-10 mb-2 pl-3">
+                  <div class="card-body">
+                    <p class="card-text">PROLINE BALIKLI YETİŞKİN KEDİ MAMASI 500 G</p>
+                  </div>
+                </a>
+            </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <div class="row">
+            <div class="card" style="width:100%">
+            <!--Grid row-->
+                <a href="bonnie-dog-lambrice-15kg.html">
+                <img class="card-img-top" src="img/kopek/kurumamalar/bonnie/b1.jpg" alt="BONNİE YETİŞKİN KÖPEK" style="height:379px">
+              <!-- </div> -->
+                  <div class="col-10 mb-2 pl-3">
+                  <div class="card-body">
+                    <p class="card-text">BONNİE YETİŞKİN KÖPEK KUZU ETLİ & PİRİNÇLİ KÖPEK MAMASI 15 KG</p>
+                  </div>
+                </a>
+            </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <div class="row">
+            <div class="card" style="width:100%">
+            <!--Grid row-->
+                <a href="reflex-plus-yetiskin-kediler-icin-tavuklu-sos-icinde-et-parcaciklari-100-g.html">
+                <img class="card-img-top" src="img/kedi/yasmama/reflex/r16.jpg" alt="REFLEX PLUS YETİŞKİN KEDİ" style="height:358px">
+              <!-- </div> -->
+                  <div class="col-10 mb-2 pl-3">
+                  <div class="card-body">
+                    <p class="card-text">REFLEX PLUS YETİŞKİN KEDİLER İÇİN TAVUKLU SOS İÇİNDE ET PARÇACIKLARI 100 G</p>
+                  </div>
+                </a>
+            </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <div class="row">
+            <div class="card" style="width:100%">
+            <!--Grid row-->
+                <a href="reflex-plus-yetiskin-kediler-icin-dana-etli-sos-icinde-et-parcaciklari-100-g.html">
+                <img class="card-img-top" src="img/kedi/yasmama/reflex/r17.jpg" alt="REFLEX PLUS YETİŞKİN KEDİ" style="height:358px">
+              <!-- </div> -->
+                  <div class="col-10 mb-2 pl-3">
+                  <div class="card-body">
+                    <p class="card-text">REFLEX PLUS YETİŞKİN KEDİLER İÇİN DANA ETLİ SOS İÇİNDE ET PARÇACIKLARI 100 G</p>
+                  </div>
+                </a>
+            </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          </div>
+          <!--/Grid column-->
+
+        </div>
+        <!--/Second row-->
+
+
+        <!--Third row-->
+        <div class="row features-small mt-4 wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <div class="row">
+            <div class="card" style="width:100%">
+            <!--Grid row-->
+                <a href="reflex-plus-yetiskin-kediler-icin-tavsanli-ordekli-jole-icinde-et-parcaciklari-100-g.html">
+                <img class="card-img-top" src="img/kedi/yasmama/reflex/r19.jpg" alt=">REFLEX PLUS YETİŞKİN KEDİ" style="height:357px">
+              <!-- </div> -->
+                  <div class="col-10 mb-2 pl-3">
+                  <div class="card-body">
+                    <p class="card-text">REFLEX PLUS YETİŞKİN KEDİLER İÇİN TAVŞANLI & ÖRDEKLİ JÖLE İÇİNDE ET PARÇACIKLARI 100 G</p>
+                  </div>
+                </a>
+            </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <div class="row">
+            <div class="card" style="width:100%">
+            <!--Grid row-->
+                <a href="spectrum-puppy-32-kopek-mamasi-12-kg-1180.html">
+                <img class="card-img-top" src="img/kopek/kurumamalar/spectrum/s1.png" alt="Spectrum Puppy 30" style="height:379px">
+              <!-- </div> -->
+                  <div class="col-10 mb-2 pl-3">
+                  <div class="card-body">
+                    <p class="card-text">SPECTRUM PUPPY 30 YAVRU KÖPEK MAMASI 12 KG</p>
+                  </div>
+                </a>
+            </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <div class="row">
+            <div class="card" style="width:100%">
+            <!--Grid row-->
+                <a href="proline-dog-lr-3-kg.html">
+                <img class="card-img-top" src="img/kopek/kurumamalar/proline/p4.jpg" alt="PROLINE YETİŞKİN KÖPEK" style="width:100%">
+              <!-- </div> -->
+                  <div class="col-10 mb-2 pl-3">
+                  <div class="card-body">
+                    <p class="card-text">PROLINE KUZULU & PİRİNÇLİ YETİŞKİN KÖPEK MAMASI 3 KG</p>
+                  </div>
+                </a>
+            </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <div class="row">
+            <div class="card" style="width:100%">
+            <!--Grid row-->
+                <a href="spectrum-sensitive-26-kopek-mamasi-3-kg.html">
+                <img class="card-img-top" src="img/kopek/kurumamalar/spectrum/s3.png" alt="SPECTRUM SENSITIVE 26" style="height:379px">
+              <!-- </div> -->
+                  <div class="col-10 mb-2 pl-3">
+                  <div class="card-body">
+                    <p class="card-text">SPECTRUM SENSITIVE 26 YETİŞKİN KÖPEK MAMASI 3 KG</p>
+                  </div>
+                </a>
+            </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          </div>
+          <!--/Grid column-->
+
+        </div>
+        <!--/Third row-->
+        <!--/Fourth row-->
+        <div class="row features-small mt-5 wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <div class="row">
+            <div class="card" style="width:100%">
+            <!--Grid row-->
+                <a href="spectrum-dog-starter-puppy-3-kg.html">
+                <img class="card-img-top" src="img/kopek/kurumamalar/spectrum/s14.jpg" alt="SPECTRUM PUPPY STARTER" style="height:357px">
+              <!-- </div> -->
+                  <div class="col-10 mb-2 pl-3">
+                  <div class="card-body">
+                    <p class="card-text">SPECTRUM PUPPY STARTER YAVRU VE ANNE KÖPEK MAMASI 3 KG</p>
+                  </div>
+                </a>
+            </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <div class="row">
+            <div class="card" style="width:100%">
+            <!--Grid row-->
+                <a href="spectrum-large-breed-puppy-30-buyuk-irk-yavru-kopek-mamasi-3-kg.html">
+                <img class="card-img-top" src="img/kopek/kurumamalar/spectrum/s15.jpg" alt="SPECTRUM LARGE BREED PUPPY 30" style="height:357px">
+              <!-- </div> -->
+                  <div class="col-10 mb-2 pl-3">
+                  <div class="card-body">
+                    <p class="card-text">SPECTRUM LARGE BREED PUPPY 30 BÜYÜK IRK YAVRU KÖPEK MAMASI 3 KG</p>
+                  </div>
+                </a>
+            </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <div class="row">
+            <div class="card" style="width:100%">
+            <!--Grid row-->
+                <a href="vancat-compact-kedi-kumu-5-kg-cam-kokulu.html">
+                <img class="card-img-top" src="img/kedi/kumlar/vancat/v7.jpg" alt="VANCAT COMPACT KEDİ KUMU" style="height:379px">
+              <!-- </div> -->
+                  <div class="col-10 mb-2 pl-3">
+                  <div class="card-body">
+                    <p class="card-text">VANCAT COMPACT ÇAM PARFÜMLÜ 5 KG KEDİ KUMU</p>
+                  </div>
+                </a>
+            </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <div class="row">
+            <div class="card" style="width:100%">
+            <!--Grid row-->
+                <a href="enjoy-yetiskin-kedi-mamasi-15-kg.html">
+                <img class="card-img-top" src="img/kedi/kurumamalar/enjoy/e3.jpg" alt="ENJOY YETİŞKİN KEDİ" style="height:400px">
+              <!-- </div> -->
+                  <div class="col-10 mb-2 pl-3">
+                  <div class="card-body">
+                    <p class="card-text">ENJOY YETİŞKİN KEDİ MAMASI 15 KG</p>
+                  </div>
+                </a>
+            </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          </div>
+          <!--/Grid column-->
+
+        </div>
+        <!--/Fourth row-->
+        <!--/Fifth row-->
+        <div class="row features-small mt-5 wow fadeIn">
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <div class="row">
+            <div class="card" style="width:100%">
+            <!--Grid row-->
+                <a href="sandvic-mini-kemik-odul-6-ad350-gr.html">
+                <img class="card-img-top" src="img/kopek/odul_ekbesin_kemik/reflex/r26.jpg" alt="REFLEX SANDVİÇ MİNİ" style="height:357px">
+              <!-- </div> -->
+                  <div class="col-10 mb-2 pl-3">
+                  <div class="card-body">
+                    <p class="card-text">REFLEX SANDVİÇ MİNİ KEMİK ŞEKLİNDE KÖPEK ÖDÜL MAMASI (6 AD*350 GRAM)</p>
+                  </div>
+                </a>
+            </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <div class="row">
+            <div class="card" style="width:100%">
+            <!--Grid row-->
+                <a href="reflex-plus-somonlu-yet-kedi-mamasi-15-kg.html">
+                <img class="card-img-top" src="img/kedi/kurumamalar/reflex/r21.jpg" alt="REFLEX PLUS YETİŞKİN KEDİ" style="height:379px">
+              <!-- </div> -->
+                  <div class="col-10 mb-2 pl-3">
+                  <div class="card-body">
+                    <p class="card-text">REFLEX PLUS SOMONLU YETİŞKİN KEDİ MAMASI 15 KG</p>
+                  </div>
+                </a>
+            </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <div class="row">
+            <div class="card" style="width:100%">
+            <!--Grid row-->
+                <a href="vancat-compact-kedi-kumu-10-kg-cam-parfumlu.html">
+                <img class="card-img-top" src="img/kedi/kumlar/vancat/v6.jpg" alt="VANCAT COMPACT KEDİ KUMU" style="height:379px">
+              <!-- </div> -->
+                  <div class="col-10 mb-2 pl-3">
+                  <div class="card-body">
+                    <p class="card-text">VANCAT COMPACT ÇAM PARFÜMLÜ 10 KG KEDİ KUMU</p>
+                  </div>
+                </a>
+            </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          </div>
+          <!--/Grid column-->
+
+          <!--Grid column-->
+          <div class="col-xl-3 col-lg-6">
+            <div class="row">
+            <div class="card" style="width:100%">
+            <!--Grid row-->
+                <a href="bonnie-dog-puppy-lambrice-25-kg.html">
+                <img class="card-img-top" src="img/kopek/kurumamalar/bonnie/b4.jpg" alt="BONNIE PUPPY" style="height:400px">
+              <!-- </div> -->
+                  <div class="col-10 mb-2 pl-3">
+                  <div class="card-body">
+                    <p class="card-text">BONNIE PUPPY FOOD LAMB AND RICE 2,50KG</p>
+                  </div>
+                </a>
+            </div>
+            </div>
+            <!--/Grid row-->
+          </div>
+          </div>
+          <!--/Grid column-->
+
+        </div>
+        <!--/Fifth row-->
+
+      </section>
+      <!--Section: More-->
+
+    </div>
+  </main>
+  <!--Main layout-->
+
+  <!--Footer-->
+  <footer class="page-footer text-center font-small mt-4 wow fadeIn">
+    <!--Copyright-->
+    <div class="footer-copyright py-3">
+      © 2019 Copyright:
+      <a href="index.html" target="_blank">Onat Pazarlama</a>
+    </div>
+    <!--/.Copyright-->
+  </footer>
+  <!--/.Footer-->
+
+  <!-- SCRIPTS -->
+  <!-- JQuery -->
+  <script type="text/javascript" src="js/jquery-3.4.1.min.js"></script>
+  <!-- Bootstrap tooltips -->
+  <script type="text/javascript" src="js/popper.min.js"></script>
+  <!-- Bootstrap core JavaScript -->
+  <script type="text/javascript" src="js/bootstrap.min.js"></script>
+  <!-- MDB core JavaScript -->
+  <script type="text/javascript" src="js/mdb.min.js"></script>
+  <!-- Initializations -->
+  <script type="text/javascript">
+    // Animations initialization
+    new WOW().init();
+
+  </script>
+</body>
+
+</html>
